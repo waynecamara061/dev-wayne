@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import './App.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules';
+import { Tooltip } from 'react-tooltip'
+
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -208,22 +210,42 @@ function App() {
         <div className="fifth-section-content">
           <div className="carrossel-certificados">
             <Swiper
-              modules={[Navigation, Pagination, A11y]}
+              modules={[Navigation, Pagination, Autoplay]}
+              // loop={true}
               slidesPerView={1}
               pagination={{ clickable: true }}
+              // navigation
+              autoplay={{
+                delay: 3000,
+                // TODO: Ao colocar o mouse em cima o slide fica parado, porem pode confundir o usuario
+                // pauseOnMouseEnter: true,
+              }}
             >
-              <SwiperSlide className='swiper-img'> <img src="../src/assets/img/frontend-page.jpg"/> </SwiperSlide>
-              <SwiperSlide><img src="../src/assets/img/lgcdeprogramacao.jpg"/> </SwiperSlide>
-              <SwiperSlide><img src="../src/assets/img/jsavanc.jpg"/> </SwiperSlide>
-              <SwiperSlide><img src="../src/assets/img/react.jpg"/> </SwiperSlide>
-              <SwiperSlide><img src="../src/assets/img/apinode.jpg"/> </SwiperSlide>
-              <SwiperSlide><img src="../src/assets/img/dockernet.jpg"/> </SwiperSlide>
-              <SwiperSlide><img src="../src/assets/img/divinocafe.jpg"/> </SwiperSlide>
-              <SwiperSlide><img src="../src/assets/img/4events.jpg"/> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/frontend-page.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/lgcdeprogramacao.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/jsavanc.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/apinode.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/divinocafe.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/4events.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/dockernet.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/react.jpg" /> </SwiperSlide>
             </Swiper>
           </div>
           <div className="carrossel-projetos">
-            <h1>alooo</h1>
+            <div className="tootip-more-info">
+              <h2>Casos de Estudo</h2>
+              <a className='more-info-projects'>
+                <img src="../src/assets/img/moreinfo.svg" />
+              </a>
+              <Tooltip anchorSelect='.more-info-projects'>
+                "Ao clicar em uma das opções abaixo, você terá acesso a detalhes relevantes conforme sua escolha."
+              </Tooltip>
+            </div>
+            <div className="fifth-text-content">
+              <h1>
+                aloooo
+              </h1>
+            </div>
           </div>
         </div>
       </section>
@@ -231,4 +253,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
