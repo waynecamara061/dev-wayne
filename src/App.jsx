@@ -1,6 +1,14 @@
 import { useEffect, useState } from 'react';
 import './App.css'
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 function App() {
 
 
@@ -189,12 +197,34 @@ function App() {
 
           <div className="btn-fourth-container">
             <button className='btn-fourth-section'>
-              <a href="#fifth-section">
+              <a href="#fifth-section-container">
                 Certificados e projetos &#x1F393;
               </a>
             </button>
           </div>
-
+        </div>
+      </section>
+      <section id="fifth-section-container" className='fifth-section-container'>
+        <div className="fifth-section-content">
+          <div className="carrossel-certificados">
+            <Swiper
+              modules={[Navigation, Pagination, A11y]}
+              slidesPerView={1}
+              pagination={{ clickable: true }}
+            >
+              <SwiperSlide className='swiper-img'> <img src="../src/assets/img/frontend-page.jpg"/> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/lgcdeprogramacao.jpg"/> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/jsavanc.jpg"/> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/react.jpg"/> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/apinode.jpg"/> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/dockernet.jpg"/> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/divinocafe.jpg"/> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/4events.jpg"/> </SwiperSlide>
+            </Swiper>
+          </div>
+          <div className="carrossel-projetos">
+            <h1>alooo</h1>
+          </div>
         </div>
       </section>
     </>
