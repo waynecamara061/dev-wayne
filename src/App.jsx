@@ -25,8 +25,8 @@ function App() {
       <section className='first-senction-container'>
         <nav>
           <div className="nav-content">
-            <a target='_blank' href='https://github.com/waynecamara061'> <img src="../src/assets/img/github.svg" alt="" /> </a>
-            <a target='_blank' href='https://www.linkedin.com/in/wayne-camara-358a2123b/'> <img src="../src/assets/img/in.svg" alt="" /> </a>
+            <a target='_blank' href='https://github.com/waynecamara061'>  <img src="../src/assets/img/github.svg" alt="" /></a>
+            <a target='_blank' href='https://www.linkedin.com/in/wayne-camara-358a2123b/'> <img src="../src/assets/img/in.svg" alt="" /></a>
             <a target='_blank' href='https://www.instagram.com/_devwayne/'> <img src="../src/assets/img/ig.svg" alt="" /></a>
           </div>
         </nav>
@@ -84,7 +84,7 @@ function App() {
       </section>
       <section id='fourth-section' className='fourth-section-container'>
         <div className="fourth-section-content">
-          <h1>Entrada Oficial no Campo Profissional</h1>
+          <h1>Histórico Profissional</h1>
           <div className="fourth-text-container">
             <p>
               "Iniciei minha jornada profissional aos 18 anos na empresa BIUD, uma organização focada na
@@ -117,14 +117,84 @@ function App() {
               <br />
               um processo de lay-off que resultou no meu desligamento em julho deste ano. Estou grato
               <br />
-              pelas oportunidades de crescimento e aprendizado que obtive durante esse período e estou
-              <br />
-              ansioso para explorar novos desafios em minha carreira profissional."
+              pelas oportunidades de crescimento e aprendizado que obtive durante esse período.
             </p>
           </div>
         </div>
         <div className="field-of-competence">
-          <h2>Competências desenvolvidas</h2>
+          <h2>Grau de habilidades</h2>
+
+          <div className="competence-lenguages">
+            <h3>HTML5 e CSS3</h3>
+            <section className='field-xp-container'>
+              <div className="field-xp-avancado"></div>
+            </section>
+          </div>
+
+          <div className="competence-lenguages">
+            <h3>JavaScript</h3>
+            <section className='field-xp-container'>
+              <div className="field-xp-avancado"></div>
+            </section>
+          </div>
+
+          <div className="competence-lenguages">
+            <h3>React e TypeScript</h3>
+            <section className='field-xp-container'>
+              <div className="field-xp-intermed"></div>
+            </section>
+          </div>
+
+          <div className="competence-lenguages">
+            <h3>Bootstrap e TailWind</h3>
+            <section className='field-xp-container'>
+              <div className="field-xp-intermed"></div>
+            </section>
+          </div>
+
+          <div className="competence-lenguages">
+            <h3>NodeJs e Express</h3>
+            <section className='field-xp-container'>
+              <div className="field-xp-intermed"></div>
+            </section>
+          </div>
+
+          <div className="competence-lenguages">
+            <h3>PHP 7</h3>
+            <section className='field-xp-container'>
+              <div className="field-xp-basico"></div>
+            </section>
+          </div>
+
+          <div className="competence-lenguages">
+            <h3>Versionamento de codigo</h3>
+            <section className='field-xp-container'>
+              <div className="field-xp-intermed"></div>
+            </section>
+          </div>
+
+          <div className="competence-lenguages">
+            <h3>Boas praticas em repositorio</h3>
+            <section className='field-xp-container'>
+              <div className="field-xp-avancado"></div>
+            </section>
+          </div>
+
+          <div className="competence-lenguages">
+            <h3>Metodologias ageis</h3>
+            <section className='field-xp-container'>
+              <div className="field-xp-intermed"></div>
+            </section>
+          </div>
+
+          <div className="btn-fourth-container">
+            <button className='btn-fourth-section'>
+              <a href="#fifth-section">
+                Certificados e projetos &#x1F393;
+              </a>
+            </button>
+          </div>
+
         </div>
       </section>
     </>
