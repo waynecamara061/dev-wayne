@@ -145,6 +145,7 @@ function App() {
             </p>
           </div>
         </div>
+
         <div className="field-of-competence">
           <h2>Grau de habilidades</h2>
 
@@ -220,7 +221,7 @@ function App() {
           </div>
         </div>
       </section>
-      
+
     <section id="fifth-section-container" className='fifth-section-container'>
       <div className="fifth-section-content">
         <div className="carrossel-certificados">
@@ -246,6 +247,7 @@ function App() {
             <SwiperSlide><img src="../src/assets/img/react.jpg" /> </SwiperSlide>
           </Swiper>
         </div>
+        
         <div className="carrossel-projetos">
           <div className="fifth-text-content">
             <div className="tootip-more-info">

@@ -185,35 +185,6 @@ h1::after {
   box-shadow: 5px 4px 10px -2px #f5f5f548;
 }
 
-/* @media (max-width: 1330px) {
-  .section-image {
-    width: 300px;
-    height: 450px;
-  }
-
-  .section-image img {
-    width: 300px;
-    height: 450px;
-  }
-} */
-
-@media (max-width: 1400px) {
-
-  .section-image {
-    width: 400px !important;
-    height: 550px !important;
-  }
-
-  .section-image img {
-    width: 400px !important;
-    height: 550px !important;
-  }
-
-  p {
-    font-size: 14px !important;
-  }
-}
-
 .section-image img {
   width: 600px;
   height: 750px;
@@ -227,7 +198,7 @@ h1::after {
 
 .profile-content {
   width: 100%;
-  height: 750px;
+  height: 100%;
   margin-left: 50px;
 
   display: flex;
@@ -306,13 +277,6 @@ h1::after {
   align-items: center;
 }
 
-@media (max-width: 1400px) {
-
-  .fourth-section-content {
-    margin-left: 25px !important;
-  }
-}
-
 .fourth-section-content {
   width: 45%;
   height: 750px;
@@ -331,13 +295,6 @@ h1::after {
   font-size: 30px;
   font-weight: 800;
   text-transform: uppercase;
-}
-
-@media (max-width: 1400px) {
-  .fourth-section-content p {
-    font-size: 13px !important;
-    margin: 0px 75px 0px 75px !important;
-  }
 }
 
 .fourth-section-content p {
@@ -361,7 +318,7 @@ h1::after {
 
 .field-of-competence {
   width: 40%;
-  height: 750px;
+  height: 100%;
   margin: 0px 100px 0px 150px;
 
   display: flex;
@@ -434,7 +391,6 @@ h1::after {
   justify-content: center;
 }
 
-
 .btn-fourth-section {
   width: 250px;
   height: 50px;
@@ -499,19 +455,6 @@ h1::after {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media (max-width: 1400px) {
-  .carrossel-certificados img {
-    width: 600px !important;
-    margin: 25px !important;
-  }
-}
-
-@media (max-width: 1630px) {
-  .carrossel-certificados img {
-    margin-left: 30px !important;
-  }
 }
 
 .carrossel-certificados img {
@@ -579,21 +522,6 @@ h1::after {
   box-shadow: 4px 2px 10px 3px #f5f5f548;
 }
 
-@media (max-width:1400px) {
-  .fifth-text-content {
-    width: 90%;
-  }
-
-  .css-15v22id-MuiAccordionDetails-root {
-    padding: 0 !important;
-    width: 600px;
-  }
-
-  .accordion-content {
-    padding: 0 !important;
-  }
-}
-
 .accordion-container {
   width: 700px;
 
@@ -641,228 +569,75 @@ h1::after {
   justify-content: space-evenly;
 }
 
-@media screen and (min-width: 414px) and (max-height: 736px) {
-  /* 
-  body {
-    max-width: 202vh;
-  } */
-
-  .first-senction-container {
-    width: 100%;
-    height: 120px;
-    margin-bottom: 50px;
-  }
-
+/* Largura maxima de 600px */
+@media (max-width: 600px) {
   .nav-content {
-    width: 70%;
-  }
-
-  .second-section-container {
-    height: 400px;
+    width: 40%;
   }
 
   .second-section-content p {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .second-section-content h1 {
-    font-size: 25px;
-  }
-
-  .btn-view-more-container {
-    height: 80px;
-    margin-bottom: 50px;
-  }
-
-  .btn-view-more {
-    width: 25px;
-    height: 25px;
-  }
-
-  .third-section-container {
-    width: 100%;
-    height: 700px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    font-size: 35px;
   }
 
   .section-image {
-    width: 250px;
-    height: 350px;
-
-    visibility: collapse;
-  }
-
-  .profile-content {
-    width: 80%;
-    height: 500px;
-
-    margin: 0px 0px 50px 0px;
+    display: none;
   }
 
   .profile-content h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .profile-content p {
-    font-size: 15px;
-    overflow: scroll;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .profile-content {
+    width: 90%;
+    margin-left: 30px;
   }
 
   .btn-third-container {
-    margin: 30px 0px 60px 0px;
+    margin: 30px 0px 40px 0px;
   }
 
   .fourth-section-container {
-    width: 100%;
-    height: 900px;
-    margin-bottom: 590px;
-
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .fourth-section-content {
-    width: 80%;
-    height: 500px;
-    margin: 80px 0px 0px 0px;
-  }
-
-  .fourth-section-content h1 {
-    font-size: 25px;
-    text-transform: none;
+    width: 90%;
+    margin: 50px 0px 0px 20px;
   }
 
   .fourth-section-content p {
-    margin-top: 10px;
-    font-size: 15px;
-    padding: 18px;
+    text-align: left;
+    padding-left: 20px;
   }
 
-  .fourth-text-container {
-    overflow: scroll;
+  .fourth-section-content h1 {
+    margin-top: 20px;
   }
 
   .field-of-competence {
     width: 100%;
-    height: 100%;
-
-    margin: 0;
-  }
-
-  .field-of-competence h2 {
-    font-size: 25px;
-    margin-top: 80px;
-  }
-
-  .competence-lenguages {
-    width: 90%;
-    height: 100%;
-
-    margin-top: 15px;
-  }
-
-  .competence-lenguages h3 {
-    font-size: 13px;
+    margin: 180px;
   }
 
   .field-xp-avancado {
-    width: 170px;
+    width: 230px;
   }
 
   .field-xp-intermed {
-    width: 140px;
+    width: 180px;
   }
 
   .field-xp-basico {
-    width: 100px;
-  }
-
-  .fifth-section-container {
-    width: 100%;
-    height: 700px;
-
-    margin: 80px 0px 0px 0px;
-  }
-
-  .fifth-section-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .carrossel-certificados {
-    width: 100%;
-    height: 100%;
-  }
-
-  .carrossel-certificados img {
-    width: 80%;
-    height: 30%;
-    margin: 0px 0px 0px 40px;
-  }
-
-  .carrossel-projetos {
-    width: 100%;
-  }
-
-  .more-info-projects {
-    margin-top: 45px;
-    font-size: 13px;
-  }
-
-  .react-tooltip {
-    width: 300px !important;
-    height: 80px;
-  }
-
-  .carrossel-projetos h2 {
-    font-size: 25px;
-  }
-
-  .section-text-container {
-    width: 100%;
-    height: 100%;
-  }
-
-  .accordion-container {
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .accordion-section-content {
-    width: 100%;
-    height: 100%;
-  }
-
-  #panel1a-header {
-    background-color: #0c0c0c;
-    color: #f4f4f4;
-    font-size: 15px;
-    width: 350px;
-  }
-
-  .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
-    background-color: #0c0c0c !important;
-  }
-
-  .css-15v22id-MuiAccordionDetails-root {
-    width: 300px;
-    margin: 10px;
-  }
-
-  .accordion-content {
-    width: 100%;
-    font-size: 15px;
-    padding: 0;
-    text-align: center;
+    width: 130px;
   }
 }
