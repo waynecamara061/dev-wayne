@@ -947,3 +947,81 @@ h1::after {
     width: 100%;
   }
 }
+
+@media (max-width: 1600px) {
+  .fourth-section-content p {
+    text-align: start;
+    margin: 80px 15px 0px 15px;
+  }
+
+  .carrossel-certificados img {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 414px) and (max-height: 736px) {
+  .nav-content {
+    width: 40%;
+  }
+
+  .second-section-content h1 {
+    font-size: 30px;
+  }
+
+  .fourth-section-content {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .fourth-section-content h1 {
+    font-size: 25px;
+  }
+
+  .fourth-section-content p {
+    font-size: 16px;
+  }
+
+  .field-of-competence {
+    width: 100%;
+  }
+
+  .competence-lenguages h3 {
+    font-size: 15px;
+  }
+
+  .field-xp-avancado {
+    width: 180px;
+  }
+
+  .field-xp-intermed {
+    width: 130px;
+  }
+
+  .field-xp-basico {
+    width: 80px;
+  }
+
+  .carrossel-certificados img {
+    width: 350px;
+    height: 400px;
+    margin-left: 20px;
+  }
+
+  .fifth-text-content {
+    width: 100%;
+  }
+
+  .carrossel-projetos {
+    width: 100%;
+    margin-right: 30px;
+  }
+
+  #panel1a-header {
+    width: 350px;
+    margin-left: 80px;
+  }
+
+  .accordion-content {
+    width: 300px;
+  }
+}
