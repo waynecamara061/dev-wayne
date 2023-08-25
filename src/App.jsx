@@ -56,7 +56,7 @@ function App() {
       <section className='second-section-container'>
         <div className='second-section-content'>
           <p>Saudações, eu sou Wayne  &#129311;&#127995;</p>
-          <h1>Desenvolvedor Front-end Jr.</h1>
+          <h1>Desenvolvedor Front-end</h1>
         </div>
       </section>
 
@@ -222,180 +222,180 @@ function App() {
         </div>
       </section>
 
-    <section id="fifth-section-container" className='fifth-section-container'>
-      <div className="fifth-section-content">
-        <div className="carrossel-certificados">
-          <Swiper
-            modules={[Navigation, Pagination, Autoplay]}
-            // loop={true}
-            slidesPerView={1}
-            pagination={{ clickable: true }}
-            // navigation
-            autoplay={{
-              delay: 3000,
-              // TODO: Ao colocar o mouse em cima o slide fica parado, porem pode confundir o usuario
-              // pauseOnMouseEnter: true,
-            }}
-          >
-            <SwiperSlide><img src="../src/assets/img/frontend-page.jpg" /> </SwiperSlide>
-            <SwiperSlide><img src="../src/assets/img/lgcdeprogramacao.jpg" /> </SwiperSlide>
-            <SwiperSlide><img src="../src/assets/img/jsavanc.jpg" /> </SwiperSlide>
-            <SwiperSlide><img src="../src/assets/img/apinode.jpg" /> </SwiperSlide>
-            <SwiperSlide><img src="../src/assets/img/divinocafe.jpg" /> </SwiperSlide>
-            <SwiperSlide><img src="../src/assets/img/4events.jpg" /> </SwiperSlide>
-            <SwiperSlide><img src="../src/assets/img/dockernet.jpg" /> </SwiperSlide>
-            <SwiperSlide><img src="../src/assets/img/react.jpg" /> </SwiperSlide>
-          </Swiper>
-        </div>
-        
-        <div className="carrossel-projetos">
-          <div className="fifth-text-content">
-            <div className="tootip-more-info">
-              <h2>Casos de Estudo</h2>
-              <a className='more-info-projects'>
-                <img src="../src/assets/img/moreinfo.svg" />
-              </a>
-              <Tooltip anchorSelect='.more-info-projects'>
-                "Para uma visão mais abrangente de meus empreendimentos profissionais, <br /> convido você a explorar meu repositório no GitHub."
-              </Tooltip>
-            </div>
+      <section id="fifth-section-container" className='fifth-section-container'>
+        <div className="fifth-section-content">
+          <div className="carrossel-certificados">
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay]}
+              // loop={true}
+              slidesPerView={1}
+              pagination={{ clickable: true }}
+              // navigation
+              autoplay={{
+                delay: 3000,
+                // TODO: Ao colocar o mouse em cima o slide fica parado, porem pode confundir o usuario
+                // pauseOnMouseEnter: true,
+              }}
+            >
+              <SwiperSlide><img src="../src/assets/img/frontend-page.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/lgcdeprogramacao.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/jsavanc.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/apinode.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/divinocafe.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/4events.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/dockernet.jpg" /> </SwiperSlide>
+              <SwiperSlide><img src="../src/assets/img/react.jpg" /> </SwiperSlide>
+            </Swiper>
+          </div>
 
-            <div className="section-text-container">
-              <div className="accordion-container">
-                <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-                  <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                  >
-                    <Typography>E-commerce</Typography>
-                  </AccordionSummary>
-                  <AccordionDetails className='accordion-section-content'>
-                    <Typography>
-                      <div className="accordion-content">
-                        <p>
-                          O projeto "Desenvolvimento de Interface de E-commerce com Funcionalidade de Compras"
-                          <br />
-                          visou criar uma plataforma de comércio eletrônico que oferecesse uma experiência intuitiva
-                          <br />
-                          aos usuários. A ênfase foi em uma navegação clara e um sistema de compras eficiente. A
-                          <br />
-                          interface permitia a seleção de produtos em diferentes categorias, com opções de
-                          <br />
-                          personalização de cor e quantidade. Após selecionar itens, os usuários podiam adicioná-los
-                          <br />
-                          ao carrinho, com a possibilidade de continuar comprando. A finalização da compra envolvia
-                          <br />
-                          revisar os itens e concluir a transação. O desenvolvimento foi baseado em tecnologias front-
-                          <br />
-                          end, com destaque para o uso de JavaScript para interações. O armazenamento foi simulado
-                          <br />
-                          com mocks para testes controlados. O projeto resultou em uma plataforma que espelha a
-                          <br />
-                          praticidade do comércio eletrônico moderno, com interações intuitivas e processo de
-                          <br />
-                          compra simplificado.
-                        </p>
-                      </div>
-                    </Typography>
-                  </AccordionDetails>
-                </Accordion>
+          <div className="carrossel-projetos">
+            <div className="fifth-text-content">
+              <div className="tootip-more-info">
+                <h2>Casos de Estudo</h2>
+                <a className='more-info-projects'>
+                  <img src="../src/assets/img/moreinfo.svg" />
+                </a>
+                <Tooltip anchorSelect='.more-info-projects'>
+                  "Para uma visão mais abrangente de meus empreendimentos profissionais, <br /> convido você a explorar meu repositório no GitHub."
+                </Tooltip>
               </div>
 
-              <div className="accordion-container">
-                <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-                  <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel2bh-content"
-                    id="panel1a-header"
-                  >
-                    <Typography>Firebase and Typescript</Typography>
-                  </AccordionSummary>
-                  <AccordionDetails className='accordion-section-content'>
-                    <Typography>
-                      <div className="accordion-content">
-                        <p>
-                          O projeto "Firebase e TypeScript: Exploração de Bancos de Dados e Habilidades em
-                          <br />
-                          Desenvolvimento" abordou a implementação de dois projetos distintos para enriquecer a
-                          <br />
-                          compreensão de bancos de dados e aprimorar proficiências em TypeScript. O primeiro
-                          <br />
-                          projeto, inspirado no estilo da Netflix, envolveu o uso da API de filmes. Por meio do
-                          <br />
-                          TypeScript, o projeto permitiu a busca e exibição de informações de filmes, enriquecendo as
-                          <br />
-                          habilidades de desenvolvimento.
-                          <br />
-                          <br />
-                          O segundo projeto adotou a abordagem do Trello, oferecendo uma plataforma para criar
-                          <br />
-                          listas de tarefas. Com o Firebase como banco de dados, a combinação com TypeScript
-                          <br />
-                          viabilizou a criação de uma aplicação eficiente e colaborativa para gerenciar tarefas. Ambos
-                          <br />
-                          os projetos reforçaram o conhecimento em TypeScript e o entendimento prático de bancos
-                          <br />
-                          de dados, fornecendo uma experiência de aprendizado valiosa no desenvolvimento de
-                          <br />
-                          aplicações funcionais e envolventes.
-                        </p>
-                      </div>
-                    </Typography>
-                  </AccordionDetails>
-                </Accordion>
-              </div>
+              <div className="section-text-container">
+                <div className="accordion-container">
+                  <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel1a-content"
+                      id="panel1a-header"
+                    >
+                      <Typography>E-commerce</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails className='accordion-section-content'>
+                      <Typography>
+                        <div className="accordion-content">
+                          <p>
+                            O projeto "Desenvolvimento de Interface de E-commerce com Funcionalidade de Compras"
+                            <br />
+                            visou criar uma plataforma de comércio eletrônico que oferecesse uma experiência intuitiva
+                            <br />
+                            aos usuários. A ênfase foi em uma navegação clara e um sistema de compras eficiente. A
+                            <br />
+                            interface permitia a seleção de produtos em diferentes categorias, com opções de
+                            <br />
+                            personalização de cor e quantidade. Após selecionar itens, os usuários podiam adicioná-los
+                            <br />
+                            ao carrinho, com a possibilidade de continuar comprando. A finalização da compra envolvia
+                            <br />
+                            revisar os itens e concluir a transação. O desenvolvimento foi baseado em tecnologias front-
+                            <br />
+                            end, com destaque para o uso de JavaScript para interações. O armazenamento foi simulado
+                            <br />
+                            com mocks para testes controlados. O projeto resultou em uma plataforma que espelha a
+                            <br />
+                            praticidade do comércio eletrônico moderno, com interações intuitivas e processo de
+                            <br />
+                            compra simplificado.
+                          </p>
+                        </div>
+                      </Typography>
+                    </AccordionDetails>
+                  </Accordion>
+                </div>
 
-              <div className="accordion-container">
-                <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
-                  <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel3bh-content"
-                    id="panel1a-header"
-                  >
-                    <Typography>Divino café</Typography>
-                  </AccordionSummary>
-                  <AccordionDetails className='accordion-section-content'>
-                    <Typography>
-                      <div className="accordion-content">
-                        <p>
-                          O projeto "Divino Café" emergiu como resposta à carência de um website para uma loja real.
-                          <br />
-                          A colaboração de um grupo composto por seis membros foi essencial para concretizar a
-                          <br />
-                          iniciativa. Desempenhando o papel de administrador do repositório, meu foco concentrou-
-                          <br />
-                          se na organização e coordenação do desenvolvimento. Além disso, tive a oportunidade de
-                          <br />
-                          criar duas dashboards distintas: uma para seleção de produtos e outra para finalização das
-                          <br />
-                          compras.
-                          <br />
-                          <br />
-                          O projeto foi significativo por abarcar diferentes níveis técnicos dentro da equipe,
-                          <br />
-                          proporcionando um cenário de aprendizado e crescimento. A implementação das
-                          <br />
-                          dashboards, em particular, destacou-se como uma oportunidade para aplicar
-                          <br />
-                          dashboards, em particular, destacou-se como uma oportunidade para aplicar
-                          <br />
-                          conhecimentos em um contexto prático. No final, o projeto "Divino Café" não apenas
-                          <br />
-                          preencheu uma lacuna na loja física, mas também solidificou habilidades de colaboração,
-                          <br />
-                          gerenciamento de repositórios e criação de interfaces funcionais.
-                        </p>
-                      </div>
-                    </Typography>
-                  </AccordionDetails>
-                </Accordion>
+                <div className="accordion-container">
+                  <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel2bh-content"
+                      id="panel1a-header"
+                    >
+                      <Typography>Firebase and Typescript</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails className='accordion-section-content'>
+                      <Typography>
+                        <div className="accordion-content">
+                          <p>
+                            O projeto "Firebase e TypeScript: Exploração de Bancos de Dados e Habilidades em
+                            <br />
+                            Desenvolvimento" abordou a implementação de dois projetos distintos para enriquecer a
+                            <br />
+                            compreensão de bancos de dados e aprimorar proficiências em TypeScript. O primeiro
+                            <br />
+                            projeto, inspirado no estilo da Netflix, envolveu o uso da API de filmes. Por meio do
+                            <br />
+                            TypeScript, o projeto permitiu a busca e exibição de informações de filmes, enriquecendo as
+                            <br />
+                            habilidades de desenvolvimento.
+                            <br />
+                            <br />
+                            O segundo projeto adotou a abordagem do Trello, oferecendo uma plataforma para criar
+                            <br />
+                            listas de tarefas. Com o Firebase como banco de dados, a combinação com TypeScript
+                            <br />
+                            viabilizou a criação de uma aplicação eficiente e colaborativa para gerenciar tarefas. Ambos
+                            <br />
+                            os projetos reforçaram o conhecimento em TypeScript e o entendimento prático de bancos
+                            <br />
+                            de dados, fornecendo uma experiência de aprendizado valiosa no desenvolvimento de
+                            <br />
+                            aplicações funcionais e envolventes.
+                          </p>
+                        </div>
+                      </Typography>
+                    </AccordionDetails>
+                  </Accordion>
+                </div>
+
+                <div className="accordion-container">
+                  <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+                    <AccordionSummary
+                      expandIcon={<ExpandMoreIcon />}
+                      aria-controls="panel3bh-content"
+                      id="panel1a-header"
+                    >
+                      <Typography>Divino café</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails className='accordion-section-content'>
+                      <Typography>
+                        <div className="accordion-content">
+                          <p>
+                            O projeto "Divino Café" emergiu como resposta à carência de um website para uma loja real.
+                            <br />
+                            A colaboração de um grupo composto por seis membros foi essencial para concretizar a
+                            <br />
+                            iniciativa. Desempenhando o papel de administrador do repositório, meu foco concentrou-
+                            <br />
+                            se na organização e coordenação do desenvolvimento. Além disso, tive a oportunidade de
+                            <br />
+                            criar duas dashboards distintas: uma para seleção de produtos e outra para finalização das
+                            <br />
+                            compras.
+                            <br />
+                            <br />
+                            O projeto foi significativo por abarcar diferentes níveis técnicos dentro da equipe,
+                            <br />
+                            proporcionando um cenário de aprendizado e crescimento. A implementação das
+                            <br />
+                            dashboards, em particular, destacou-se como uma oportunidade para aplicar
+                            <br />
+                            dashboards, em particular, destacou-se como uma oportunidade para aplicar
+                            <br />
+                            conhecimentos em um contexto prático. No final, o projeto "Divino Café" não apenas
+                            <br />
+                            preencheu uma lacuna na loja física, mas também solidificou habilidades de colaboração,
+                            <br />
+                            gerenciamento de repositórios e criação de interfaces funcionais.
+                          </p>
+                        </div>
+                      </Typography>
+                    </AccordionDetails>
+                  </Accordion>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section >
+      </section >
     </>
   )
 }
