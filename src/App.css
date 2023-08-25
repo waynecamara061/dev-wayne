@@ -270,7 +270,7 @@ h1::after {
 
 .fourth-section-container {
   width: 100%;
-  height: 900px;
+  height: 100%;
 
   display: flex;
   flex-direction: row;
@@ -458,7 +458,6 @@ h1::after {
 }
 
 .carrossel-certificados img {
-  width: 100%S;
   height: 500px;
   margin-left: 100px;
 
@@ -639,5 +638,50 @@ h1::after {
 
   .field-xp-basico {
     width: 130px;
+  }
+
+  .fifth-section-content {
+    flex-direction: column;
+  }
+
+  .carrossel-certificados {
+    width: 90%;
+    height: 100%;
+    margin-top: 30px;
+  }
+
+  .carrossel-certificados img {
+    width: 100%;
+    height: 500px;
+    margin-left: 0;
+
+    box-shadow: none;
+  }
+
+  .carrossel-projetos {
+    width: 100%;
+  }
+
+  #panel1a-header {
+    width: 510px;
+  }
+
+  .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+    background-color: #0c0c0c !important;
+  }
+
+  .accordion-section-content {
+    width: 475px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: none;
+  }
+
+  .accordion-content {
+    width: 100%;
+    padding: 0;
   }
 }
