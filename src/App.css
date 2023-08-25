@@ -691,6 +691,14 @@ h1::after {
     width: 30%;
   }
 
+  .btn-view-more-container {
+    margin: 0;
+  }
+
+  .second-section-container {
+    height: 600px;
+  }
+
   .second-section-content p {
     font-size: 20px;
   }
@@ -719,8 +727,17 @@ h1::after {
   }
 
   .profile-content p {
+    width: 370px;
     font-size: 15px;
     text-align: start;
+  }
+
+  .btn-third-container {
+    margin: 20px;
+  }
+
+  .third-section-container {
+    height: 900px;
   }
 
   .fourth-section-container {
@@ -730,6 +747,11 @@ h1::after {
   .fourth-section-content {
     width: 90%;
     margin: 50px 0px 0px 0px;
+  }
+
+  .fourth-section-content p{
+    text-align: start;
+    padding: 20px;
   }
 
   .field-of-competence {
